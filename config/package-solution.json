@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "test-pop-over-client-side-solution",
+    "id": "b2343760-7eea-4e0b-b7d1-1598c980f000",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Test_PopOver description"
+      },
+      "longDescription": {
+        "default": "Test_PopOver description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "test-pop-over Feature",
+        "description": "The feature that activates elements of the test-pop-over solution.",
+        "id": "e543913a-6da3-4559-b4ae-61b2029c5d93",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/test-pop-over.sppkg"
+  }
+}
